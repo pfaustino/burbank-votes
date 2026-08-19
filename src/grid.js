@@ -53,6 +53,4 @@ export function renderCompass(el, people, selectedId, axes, onSelect) {
       }
     });
   });
-
-  return selected;
 }
