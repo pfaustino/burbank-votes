@@ -1,0 +1,16 @@
+{
+  "name": "burbank-votes",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Living nonpartisan voter guide for Burbank's November 3, 2026 election",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/validate.mjs && vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

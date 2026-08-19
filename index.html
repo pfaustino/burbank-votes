@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Burbank Votes — November 3, 2026</title>
+    <meta
+      name="description"
+      content="Living nonpartisan voter guide for Burbank’s November 3, 2026 municipal and school-board election. Campaign sites, issue map, and research notes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#grid">Skip to issue map</a>
+    <header class="masthead">
+      <p class="kicker">Burbank · General Municipal Election</p>
+      <h1>Burbank Votes</h1>
+      <p class="tagline">Trusted. Nonpartisan. For Burbank.</p>
+      <p class="lede" id="lede"></p>
+    </header>
+
+    <ol class="dates" id="dates"></ol>
+
+    <p class="living" id="living"></p>
+
+    <main>
+      <section class="panel" id="grid-section">
+        <div class="section-head">
+          <h2 id="grid">Who’s on the council map</h2>
+          <p>
+            Three seats, thirteen candidates. Horizontal: tenant and labor
+            politics versus business and property-owner politics. Vertical:
+            housing and transit expansion versus neighborhood preservation.
+            Click a name. Fainter dots have thinner public records.
+          </p>
+        </div>
+        <div class="grid-layout">
+          <figure class="compass-wrap">
+            <div id="compass"></div>
+            <figcaption>
+              Estimates from public sites, letters, filings, and 2024 forums.
+              Not a scorecard.
+            </figcaption>
+          </figure>
+          <article class="detail" id="detail"></article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2 id="council">City Council — 3 seats</h2>
+          <p>Directory of certified candidates, with campaign sites where they exist.</p>
+        </div>
+        <div class="card-grid" id="council-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2 id="citywide">Clerk &amp; Treasurer — both unopposed</h2>
+        </div>
+        <div class="card-grid gold" id="citywide-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2 id="schools">Burbank Unified School District</h2>
+          <p>Area 3 is a four-way race. Area 4 is unopposed.</p>
+        </div>
+        <div class="card-grid" id="schools-list"></div>
+      </section>
+
+      <section class="panel method">
+        <h2>How this guide stays alive</h2>
+        <p>
+          Candidate platforms are still arriving. When a new website or
+          statement appears, we update
+          <code>data/candidates.json</code> and republish. Placements move only
+          when the public record moves.
+        </p>
+        <p>
+          Official election information:
+          <a href="https://www.burbankca.gov/web/city-clerks-office/november-3-2026-general-municipal-election"
+            >City of Burbank election page</a>.
+        </p>
+        <ol class="changelog" id="changelog"></ol>
+      </section>
+    </main>
+
+    <footer>
+      <p id="disclaimer"></p>
+      <p class="fine">Just information you can count on.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "title": "Burbank Votes",
+  "tagline": "Trusted. Nonpartisan. For Burbank.",
+  "electionDate": "2026-11-03",
+  "electionLabel": "November 3, 2026",
+  "certifiedAsOf": "2026-08-17",
+  "updated": "2026-08-19",
+  "seats": {
+    "council": 3,
+    "clerk": 1,
+    "treasurer": 1,
+    "busd3": 1,
+    "busd4": 1
+  },
+  "dates": [
+    { "date": "Oct 5", "label": "Ballots mailed" },
+    { "date": "Oct 19", "label": "Last day to register" },
+    { "date": "Oct 24", "label": "Vote Centers open" },
+    { "date": "Nov 3", "label": "Election Day, 7 am–8 pm" }
+  ],
+  "axes": {
+    "xLeft": "Labor / tenant",
+    "xRight": "Business / property",
+    "yTop": "Housing & transit expansion",
+    "yBottom": "Neighborhood preservation"
+  },
+  "disclaimer": "Burbank Votes is an independent, nonpartisan public service. It is not an official City of Burbank or Burbank Unified resource. Alignment placements are research estimates from public websites, letters, filings, and 2024 forums — not endorsements or scorecards. Candidates were certified as of August 17, 2026.",
+  "changelog": [
+    {
+      "date": "2026-08-19",
+      "note": "Launch. Campaign sites, council alignment estimates, and a second pass on thin-record candidates. No new sites found on the second pass."
+    }
+  ]
+}
