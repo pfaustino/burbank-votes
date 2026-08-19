@@ -18,6 +18,7 @@
   </head>
   <body>
     <a class="skip" href="#grid">Skip to issue map</a>
+    <a class="skip" href="#issues">Skip to issues chart</a>
     <header class="masthead">
       <p class="kicker">Burbank · General Municipal Election</p>
       <h1>Burbank Votes</h1>
@@ -54,6 +55,25 @@
 
       <section class="panel">
         <div class="section-head">
+          <h2 id="issues">Council issues chart</h2>
+          <p>
+            Five live questions, thirteen candidates. Color is a documented
+            yes, no, mixed, or no public record — not a score. Click a name to
+            open that candidate. Notes live in the panel above. School-board
+            and clerk/treasurer races are not on this chart.
+          </p>
+        </div>
+        <ul class="legend" aria-label="Issue chart legend">
+          <li><span class="swatch yes"></span> Yes</li>
+          <li><span class="swatch no"></span> No</li>
+          <li><span class="swatch mixed"></span> Mixed</li>
+          <li><span class="swatch none"></span> No public record</li>
+        </ul>
+        <div class="matrix-scroll" id="issues-chart"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
           <h2 id="council">City Council — 3 seats</h2>
           <p>Directory of certified candidates, with campaign sites where they exist.</p>
         </div>
@@ -80,8 +100,10 @@
         <p>
           Candidate platforms are still arriving. When a new website or
           statement appears, we update
-          <code>data/candidates.json</code> and republish. Placements move only
-          when the public record moves.
+          <code>data/candidates.json</code> and
+          <code>data/issues.json</code> and republish. Placements and issue
+          cells move only when the public record moves. We do not fill empty
+          cells by guessing.
         </p>
         <p>
           Official election information:

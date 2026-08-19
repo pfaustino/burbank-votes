@@ -1,0 +1,333 @@
+{
+  "issues": [
+    {
+      "id": "rentCap",
+      "short": "Rent cap",
+      "label": "Local rent cap",
+      "question": "Support a Burbank rent cap beyond state AB 1482?"
+    },
+    {
+      "id": "dedicatedBrt",
+      "short": "Dedicated BRT",
+      "label": "Dedicated BRT lanes",
+      "question": "Support full-time dedicated bus lanes on Olive Avenue?"
+    },
+    {
+      "id": "moreHousing",
+      "short": "More housing",
+      "label": "More housing",
+      "question": "Support building substantially more homes in Burbank?"
+    },
+    {
+      "id": "iceLimits",
+      "short": "ICE limits",
+      "label": "Limit ICE / city resources",
+      "question": "Support limiting city staff, facilities, or data for ICE?"
+    },
+    {
+      "id": "fullPolice",
+      "short": "Full police",
+      "label": "Fully staff police",
+      "question": "Support keeping police fully staffed, without a budget reevaluation?"
+    }
+  ],
+  "labels": {
+    "yes": "Yes",
+    "no": "No",
+    "mixed": "Mixed",
+    "none": "—"
+  },
+  "stances": {
+    "southerland": {
+      "rentCap": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "DSA-LA petition lists rent control and tenant protections."
+      },
+      "dedicatedBrt": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Site lists transit; no dedicated-lane quote found."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Platform includes public housing."
+      },
+      "iceLimits": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Campaign: keep ICE and Flock out of Burbank."
+      },
+      "fullPolice": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "DSA-LA petition: reevaluate police budget and practices."
+      }
+    },
+    "vangorder": {
+      "rentCap": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Tenants-union founder; housing crisis and tenant power are core to the campaign."
+      },
+      "dedicatedBrt": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No dedicated-lane quote found."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "State housing-policy specialist; campaign is built around adding homes."
+      },
+      "iceLimits": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Campaign: stand up to ICE; describes himself as a principal anti-ICE organizer."
+      },
+      "fullPolice": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No police-budget quote found."
+      }
+    },
+    "perez": {
+      "rentCap": {
+        "pos": "yes",
+        "basis": "vote",
+        "note": "Voted with the Oct 28, 2025 3–1 to draft a 4% soft cap. Has said she wanted a 4% hard cap."
+      },
+      "dedicatedBrt": {
+        "pos": "mixed",
+        "basis": "vote",
+        "note": "Council has held mixed-flow on Olive. In May 2026 she discussed a peak-hour dedicated-lane compromise."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "vote",
+        "note": "Campaign cites 2,000+ housing units approved in her first term."
+      },
+      "iceLimits": {
+        "pos": "yes",
+        "basis": "vote",
+        "note": "Supported limits on city staff, facilities, and resources for federal immigration enforcement, plus a community assistance fund."
+      },
+      "fullPolice": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Re-election pitch includes investing in firefighters and emergency personnel."
+      }
+    },
+    "polon": {
+      "rentCap": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Talks affordable housing; no rent-cap yes/no found."
+      },
+      "dedicatedBrt": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Transportation commissioner; Streetsblog guest editorial backs the BRT and argues SB 79 is not a reason to block it. Debated Donahue as the dedicated-lane side."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Housing Action Coalition endorsement; missing-middle housing (duplexes, fourplexes, courtyard apartments)."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No police-budget quote found."
+      }
+    },
+    "takahashi": {
+      "rentCap": {
+        "pos": "mixed",
+        "basis": "vote",
+        "note": "Voted with the Oct 2025 3–1 to draft a 4% soft cap. Steered away from a hard cap so something could pass."
+      },
+      "dedicatedBrt": {
+        "pos": "mixed",
+        "basis": "vote",
+        "note": "Council mixed-flow position on Olive. As mayor in May 2026, discussed a peak-hour dedicated-lane compromise."
+      },
+      "moreHousing": {
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "Platform: more homes “thoughtfully in the right places,” plus renter protections."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Inclusivity is on the platform; no ICE-specific quote found."
+      },
+      "fullPolice": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Platform: protected first-responder funding and mental-health-informed response."
+      }
+    },
+    "wick": {
+      "rentCap": {
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "Supports tenant protections under state AB 1482 and vouchers; does not call for a local hard cap."
+      },
+      "dedicatedBrt": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Site: mixed-flow BRT on Olive, not a permanent dedicated lane."
+      },
+      "moreHousing": {
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "“Smart, targeted growth” to meet the state mandate — not blanket density."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Site: police and fire should always be fully staffed. “Public safety is not negotiable.”"
+      }
+    },
+    "parr": {
+      "rentCap": {
+        "pos": "none",
+        "basis": "none",
+        "note": "2024 interview mentioned month-to-month renters; no rent-cap yes/no."
+      },
+      "dedicatedBrt": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No BRT quote found."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "2024: increase housing options, bring costs down, keep people in permanent housing."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Talked street safety (slower speeds), not police staffing."
+      }
+    },
+    "brody": {
+      "rentCap": { "pos": "none", "basis": "none", "note": "No 2026 platform." },
+      "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
+      "moreHousing": { "pos": "none", "basis": "none", "note": "No housing yes/no found." },
+      "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
+      "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
+    },
+    "ontiveros": {
+      "rentCap": { "pos": "none", "basis": "none", "note": "No city platform." },
+      "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
+      "moreHousing": { "pos": "none", "basis": "none", "note": "No housing yes/no found." },
+      "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
+      "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
+    },
+    "tonoyan": {
+      "rentCap": { "pos": "none", "basis": "none", "note": "2024 forums stressed entrepreneurship, not a rent-cap vote." },
+      "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
+      "moreHousing": { "pos": "none", "basis": "none", "note": "Talked “better housing” in 2024; no density yes/no." },
+      "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
+      "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
+    },
+    "yoosefi": {
+      "rentCap": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Site does not take a rent-cap position."
+      },
+      "dedicatedBrt": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No BRT quote found."
+      },
+      "moreHousing": {
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "“Preserve Burbank’s charm”; residents first, not outside developers. Also says grow smarter and follow state rules."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Vision 2030 lists public safety as a priority."
+      }
+    },
+    "donahue": {
+      "rentCap": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "President of Burbank Fair Housing PAC: against rent caps and a rent registry; prefers AB 1482 plus subsidies."
+      },
+      "dedicatedBrt": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Vision Burbank: mixed-flow on Olive, not dedicated lanes, until Metro hits a ridership trigger."
+      },
+      "moreHousing": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Pro-ADU / manufactured housing supply. Opposes rent control as a path to more homes."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No police-budget quote found."
+      }
+    },
+    "waltman": {
+      "rentCap": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "2025–26 letters: voters already rejected rent control; called a local cap a scam and asked for another citywide vote."
+      },
+      "dedicatedBrt": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "May 2026 public comment: dedicated BRT lane is misguided; stand up to Metro."
+      },
+      "moreHousing": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Opposes SB 79-style upzoning and “multi story high-rises with inadequate parking.”"
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No ICE quote found."
+      },
+      "fullPolice": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No police-budget quote found."
+      }
+    }
+  }
+}

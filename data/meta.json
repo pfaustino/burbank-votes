@@ -28,6 +28,10 @@
   "changelog": [
     {
       "date": "2026-08-19",
+      "note": "Added a council issues chart: rent cap, dedicated BRT, housing, ICE limits, and police staffing. Empty cells mean no public yes/no yet."
+    },
+    {
+      "date": "2026-08-19",
       "note": "Launch. Campaign sites, council alignment estimates, and a second pass on thin-record candidates. No new sites found on the second pass."
     }
   ]
