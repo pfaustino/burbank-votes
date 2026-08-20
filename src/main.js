@@ -1,4 +1,4 @@
-import { renderCompass } from "./grid.js";
+import { lastName, renderCompass } from "./grid.js";
 import candidateData from "../data/candidates.json";
 import issueData from "../data/issues.json";
 import meta from "../data/meta.json";
@@ -38,11 +38,6 @@ function pills(c) {
   if (c.unopposed) bits.push('<span class="pill gold">Unopposed</span>');
   if (c.needsPlatform) bits.push('<span class="pill">Needs platform</span>');
   return bits.join("");
-}
-
-function lastName(name) {
-  if (name.includes("Van Gorder")) return "Van Gorder";
-  return name.split(" ").pop();
 }
 
 function escapeHtml(value) {

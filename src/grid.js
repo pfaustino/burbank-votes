@@ -2,6 +2,11 @@ const SIZE = 500;
 const PAD = 50;
 const PLOT = 400;
 
+export function lastName(name) {
+  if (name.includes("Van Gorder")) return "Van Gorder";
+  return name.split(" ").pop();
+}
+
 export function toSvg(n, flip) {
   const v = flip ? -n : n;
   return PAD + ((v + 100) / 200) * PLOT;
@@ -14,7 +19,7 @@ export function renderCompass(el, people, selectedId, axes, onSelect) {
       const cy = toSvg(c.y, true);
       const active = c.id === selectedId;
       const faint = c.confidence === "low" || c.confidence === "medium";
-      const last = c.name.split(" ").slice(-1)[0];
+      const last = lastName(c.name);
       return `
         <g class="plot" data-id="${c.id}" role="button" tabindex="0" aria-label="${c.name}">
           <circle
