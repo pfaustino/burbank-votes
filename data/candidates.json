@@ -333,8 +333,8 @@
       "office": "BUSD Area 3",
       "race": "busd3",
       "title": "College Professor / Parent",
-      "site": null,
-      "siteLabel": "No campaign site found",
+      "site": "https://www.gerardforbusd.org/",
+      "siteLabel": "gerardforbusd.org",
       "related": [
         { "href": "mailto:gerardforbusd@protonmail.com", "label": "gerardforbusd@protonmail.com" }
       ],
@@ -342,13 +342,13 @@
       "y": 0,
       "lx": 0,
       "ly": 0,
-      "confidence": "medium",
+      "confidence": "high",
       "incumbent": false,
       "unopposed": false,
       "cluster": "Fiscal-governance",
-      "issues": "Fiscal stability, governance, student achievement",
-      "summary": "No campaign website found. County filing lists gerardforbusd@protonmail.com. USC animation professor; former Disney, Hasbro, and Warner Bros. executive. Pitch: restore sound governance and fiscal stability, with student achievement as the top priority.",
-      "needsPlatform": true
+      "issues": "Transparency, fiscal stability, enrollment, students first",
+      "summary": "USC animation professor; former Disney, Hasbro, and Warner Bros. executive. Site: Brown Act / transparency, fiscal stability, declining enrollment, and student-first representation. Contact: gerardforbusd@protonmail.com.",
+      "needsPlatform": false
     },
     {
       "id": "connor",

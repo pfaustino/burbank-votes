@@ -28,6 +28,10 @@
   "changelog": [
     {
       "date": "2026-08-19",
+      "note": "Added Paul Gerard’s BUSD Area 3 campaign site, gerardforbusd.org."
+    },
+    {
+      "date": "2026-08-19",
       "note": "Added a council issues chart: rent cap, dedicated BRT, housing, ICE limits, and police staffing. Empty cells mean no public yes/no yet."
     },
     {
