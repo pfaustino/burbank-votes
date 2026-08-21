@@ -4,7 +4,7 @@
   "electionDate": "2026-11-03",
   "electionLabel": "November 3, 2026",
   "certifiedAsOf": "2026-08-17",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "seats": {
     "council": 3,
     "clerk": 1,
@@ -26,6 +26,10 @@
   },
   "disclaimer": "Burbank Votes is an independent, nonpartisan public service. It is not an official City of Burbank or Burbank Unified resource. Alignment placements are research estimates from public websites, letters, filings, and 2024 forums — not endorsements or scorecards. Candidates were certified as of August 17, 2026.",
   "changelog": [
+    {
+      "date": "2026-08-20",
+      "note": "Added Robbie Brody’s campaign site and his statements on dedicated BRT, housing, public safety, and Flock cameras."
+    },
     {
       "date": "2026-08-19",
       "note": "Added Paul Gerard’s BUSD Area 3 campaign site, gerardforbusd.org."

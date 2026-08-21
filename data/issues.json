@@ -228,11 +228,31 @@
       }
     },
     "brody": {
-      "rentCap": { "pos": "none", "basis": "none", "note": "No 2026 platform." },
-      "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
-      "moreHousing": { "pos": "none", "basis": "none", "note": "No housing yes/no found." },
-      "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
-      "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
+      "rentCap": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Site and message do not take a rent-cap position."
+      },
+      "dedicatedBrt": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Message to this guide: a dedicated bus lane is the wrong solution for Burbank."
+      },
+      "moreHousing": {
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "Site: preserve Rancho, Magnolia Park, and hillside character while supporting sensible housing families can afford."
+      },
+      "iceLimits": {
+        "pos": "none",
+        "basis": "none",
+        "note": "Opposes Flock cameras on due-process grounds. No ICE-specific quote found."
+      },
+      "fullPolice": {
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Site: police and fire should have what they need to keep neighborhoods safe."
+      }
     },
     "ontiveros": {
       "rentCap": { "pos": "none", "basis": "none", "note": "No city platform." },
