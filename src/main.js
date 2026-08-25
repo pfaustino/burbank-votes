@@ -79,11 +79,12 @@ function stanceList(c) {
 
 function renderDetail(c) {
   document.getElementById("detail").innerHTML = `
-    <h3>${c.name}</h3>
-    <p class="office">${c.title} · ${c.cluster}</p>
+    <h3>${escapeHtml(c.name)}</h3>
+    <p class="office">${escapeHtml(c.office)}${c.cluster ? ` · ${escapeHtml(c.cluster)}` : ""}</p>
+    <p class="occupation">Occupation: ${escapeHtml(c.title)}</p>
     <div class="meta-row">${pills(c)}</div>
-    <p><strong>${c.issues}</strong></p>
-    <p>${c.summary}</p>
+    <p><strong>${escapeHtml(c.issues)}</strong></p>
+    <p>${escapeHtml(c.summary)}</p>
     ${stanceList(c)}
     <p>Campaign: ${linkFor(c)}</p>
     ${c.related?.length ? `<p>Also: ${related(c)}</p>` : ""}
@@ -125,15 +126,46 @@ function renderMatrix(selectedId) {
   `;
 }
 
+function renderOccupations(selectedId) {
+  const rows = candidates
+    .map((c) => {
+      const councilRow = c.race === "council";
+      const current = councilRow && c.id === selectedId ? " current" : "";
+      const name = councilRow
+        ? `<button type="button" data-open="${c.id}">${escapeHtml(c.name)}</button>`
+        : escapeHtml(c.name);
+      const attrs = councilRow ? ` class="${current}" data-open="${c.id}"` : "";
+      return `<tr${attrs}>
+        <th scope="row">${name}</th>
+        <td>${escapeHtml(c.office)}${c.unopposed ? " · unopposed" : ""}</td>
+        <td>${escapeHtml(c.title)}</td>
+      </tr>`;
+    })
+    .join("");
+  document.getElementById("occupation-table").innerHTML = `
+    <table class="matrix occupations">
+      <thead>
+        <tr>
+          <th scope="col">Candidate</th>
+          <th scope="col">Office</th>
+          <th scope="col">Occupation</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
 function card(c, clickable) {
   const title = clickable
-    ? `<button type="button" data-open="${c.id}"><h3>${c.name}</h3></button>`
-    : `<h3>${c.name}</h3>`;
+    ? `<button type="button" data-open="${c.id}"><h3>${escapeHtml(c.name)}</h3></button>`
+    : `<h3>${escapeHtml(c.name)}</h3>`;
   return `
     <article class="card" id="card-${c.id}">
       ${title}
-      <p class="office">${c.office}${c.unopposed ? " · unopposed" : ""} · ${c.title}</p>
-      <p>${c.issues}</p>
+      <p class="office">${escapeHtml(c.office)}${c.unopposed ? " · unopposed" : ""}</p>
+      <p class="occupation">${escapeHtml(c.title)}</p>
+      <p>${escapeHtml(c.issues)}</p>
       <p>${linkFor(c)}${c.related?.length ? ` · ${related(c)}` : ""}</p>
     </article>
   `;
@@ -151,6 +183,7 @@ function select(id) {
   );
   renderDetail(person);
   renderMatrix(person.id);
+  renderOccupations(person.id);
 }
 
 function boot() {
@@ -192,6 +225,13 @@ function boot() {
   });
 
   document.getElementById("issues-chart").addEventListener("click", (e) => {
+    const hit = e.target.closest("[data-open]");
+    if (!hit) return;
+    select(hit.getAttribute("data-open"));
+    document.getElementById("detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+
+  document.getElementById("occupation-table").addEventListener("click", (e) => {
     const hit = e.target.closest("[data-open]");
     if (!hit) return;
     select(hit.getAttribute("data-open"));

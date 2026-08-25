@@ -260,7 +260,30 @@ main {
 .card .office {
   font-size: 13px;
   color: var(--muted);
+  margin: 0 0 4px;
+}
+
+.occupation {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+.detail .occupation {
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+
+.card .occupation {
+  font-weight: 600;
   margin: 0 0 8px;
+}
+
+.matrix.occupations {
+  min-width: 520px;
+}
+
+.matrix.occupations td {
+  text-align: left;
 }
 
 .card p {
@@ -356,7 +379,7 @@ main {
 .matrix td.mixed { background: #f3e6c4; color: #5c4718; }
 .matrix td.none { background: #f7f1e6; color: var(--faint); }
 
-.matrix tbody tr {
+.matrix tbody tr[data-open] {
   cursor: pointer;
 }
 
