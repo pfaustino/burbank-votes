@@ -25,6 +25,12 @@
       "question": "Support limiting city staff, facilities, or data for ICE?"
     },
     {
+      "id": "flockAlpr",
+      "short": "Flock / ALPR",
+      "label": "Flock / ALPR cameras",
+      "question": "Support city use of Flock or other ALPR cameras?"
+    },
+    {
       "id": "fullPolice",
       "short": "Full police",
       "label": "Fully staff police",
@@ -59,6 +65,11 @@
         "basis": "statement",
         "note": "Campaign: keep ICE and Flock out of Burbank."
       },
+      "flockAlpr": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Campaign: keep ICE and Flock out of Burbank."
+      },
       "fullPolice": {
         "pos": "no",
         "basis": "statement",
@@ -85,6 +96,11 @@
         "pos": "yes",
         "basis": "statement",
         "note": "Campaign: stand up to ICE; describes himself as a principal anti-ICE organizer."
+      },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
       },
       "fullPolice": {
         "pos": "none",
@@ -113,6 +129,11 @@
         "basis": "vote",
         "note": "Supported limits on city staff, facilities, and resources for federal immigration enforcement, plus a community assistance fund."
       },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
+      },
       "fullPolice": {
         "pos": "yes",
         "basis": "statement",
@@ -140,6 +161,11 @@
         "basis": "none",
         "note": "No ICE quote found."
       },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
+      },
       "fullPolice": {
         "pos": "none",
         "basis": "none",
@@ -155,7 +181,7 @@
       "dedicatedBrt": {
         "pos": "mixed",
         "basis": "vote",
-        "note": "Council mixed-flow position on Olive. As mayor in May 2026, discussed a peak-hour dedicated-lane compromise."
+        "note": "Council mixed-flow position on Olive. In May 2026 she discussed a peak-hour dedicated-lane compromise."
       },
       "moreHousing": {
         "pos": "mixed",
@@ -166,6 +192,11 @@
         "pos": "none",
         "basis": "none",
         "note": "Inclusivity is on the platform; no ICE-specific quote found."
+      },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
       },
       "fullPolice": {
         "pos": "yes",
@@ -194,6 +225,11 @@
         "basis": "none",
         "note": "No ICE quote found."
       },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
+      },
       "fullPolice": {
         "pos": "yes",
         "basis": "statement",
@@ -221,6 +257,11 @@
         "basis": "none",
         "note": "No ICE quote found."
       },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
+      },
       "fullPolice": {
         "pos": "none",
         "basis": "none",
@@ -246,7 +287,12 @@
       "iceLimits": {
         "pos": "none",
         "basis": "none",
-        "note": "Opposes Flock cameras on due-process grounds. No ICE-specific quote found."
+        "note": "No ICE-specific quote found."
+      },
+      "flockAlpr": {
+        "pos": "no",
+        "basis": "statement",
+        "note": "Message to this guide: Flock cameras lack due process and track people not suspected of a crime."
       },
       "fullPolice": {
         "pos": "yes",
@@ -259,6 +305,7 @@
       "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
       "moreHousing": { "pos": "none", "basis": "none", "note": "No housing yes/no found." },
       "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
+      "flockAlpr": { "pos": "none", "basis": "none", "note": "No Flock or ALPR quote found." },
       "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
     },
     "tonoyan": {
@@ -266,6 +313,7 @@
       "dedicatedBrt": { "pos": "none", "basis": "none", "note": "No BRT quote found." },
       "moreHousing": { "pos": "none", "basis": "none", "note": "Talked “better housing” in 2024; no density yes/no." },
       "iceLimits": { "pos": "none", "basis": "none", "note": "No ICE quote found." },
+      "flockAlpr": { "pos": "none", "basis": "none", "note": "No Flock or ALPR quote found." },
       "fullPolice": { "pos": "none", "basis": "none", "note": "No police-budget quote found." }
     },
     "yoosefi": {
@@ -288,6 +336,11 @@
         "pos": "none",
         "basis": "none",
         "note": "No ICE quote found."
+      },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
       },
       "fullPolice": {
         "pos": "yes",
@@ -316,6 +369,11 @@
         "basis": "none",
         "note": "No ICE quote found."
       },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
+      },
       "fullPolice": {
         "pos": "none",
         "basis": "none",
@@ -342,6 +400,11 @@
         "pos": "none",
         "basis": "none",
         "note": "No ICE quote found."
+      },
+      "flockAlpr": {
+        "pos": "none",
+        "basis": "none",
+        "note": "No Flock or ALPR quote found."
       },
       "fullPolice": {
         "pos": "none",

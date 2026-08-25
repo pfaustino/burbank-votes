@@ -80,7 +80,7 @@ function stanceList(c) {
 function renderDetail(c) {
   document.getElementById("detail").innerHTML = `
     <h3>${escapeHtml(c.name)}</h3>
-    <p class="office">${escapeHtml(c.office)}${c.cluster ? ` · ${escapeHtml(c.cluster)}` : ""}</p>
+    <p class="office">${escapeHtml(c.office)}</p>
     <p class="occupation">Occupation: ${escapeHtml(c.title)}</p>
     <div class="meta-row">${pills(c)}</div>
     <p><strong>${escapeHtml(c.issues)}</strong></p>

@@ -28,6 +28,10 @@
   "changelog": [
     {
       "date": "2026-08-25",
+      "note": "Dropped mayor titles and cluster labels. Added a Flock/ALPR column. Occupations stay on the page."
+    },
+    {
+      "date": "2026-08-25",
       "note": "Added an occupations table so each candidate’s ballot designation or current role is easy to scan."
     },
     {
