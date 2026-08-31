@@ -1,0 +1,10 @@
+---
+description: Publish site updates to GitHub Pages after each change
+alwaysApply: true
+---
+
+# Go live after changes
+
+After any change that should appear on the public voter guide, commit and push `main` so GitHub Pages deploys. Do not wait for a separate “go live” message.
+
+Do not force-push. Do not skip hooks.
