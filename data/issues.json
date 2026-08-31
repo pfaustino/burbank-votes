@@ -142,9 +142,9 @@
     },
     "polon": {
       "rentCap": {
-        "pos": "none",
-        "basis": "none",
-        "note": "Talks affordable housing; no rent-cap yes/no found."
+        "pos": "no",
+        "basis": "statement",
+        "note": "Reddit comment, mid-August 2026: against a local Burbank rent cap."
       },
       "dedicatedBrt": {
         "pos": "yes",
