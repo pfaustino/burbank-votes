@@ -246,11 +246,10 @@
       "office": "City Council",
       "race": "council",
       "title": "Small Business Owner",
-      "site": "https://davidforburbank.com/",
-      "siteLabel": "davidforburbank.com",
+      "site": null,
+      "siteLabel": "No campaign site found",
       "related": [
         { "href": "https://www.burbankfairhousing.com/", "label": "Burbank Fair Housing PAC" },
-        { "href": "https://www.facebook.com/people/Burbank-Fair-Housing/61578015606667/", "label": "Fair Housing interviews on Facebook" },
         { "href": "https://www.visionburbank.org/about-us", "label": "Vision Burbank" }
       ],
       "x": 64,
@@ -262,8 +261,8 @@
       "unopposed": false,
       "cluster": "Property-owner / supply-side",
       "issues": "Anti-rent-control, ADUs, mixed-flow BRT",
-      "summary": "Campaign site: davidforburbank.com. President of Vision Burbank and the Burbank Fair Housing PAC. Opposes local rent caps and a rent registry; prefers state AB 1482 plus subsidies. Supports ADU / manufactured-housing supply. Mixed-flow BRT, not dedicated lanes. Construction and development background. Fair Housing PAC posted his 2026 questionnaire on Facebook.",
-      "needsPlatform": false
+      "summary": "No dedicated campaign website found. President of Vision Burbank and the Burbank Fair Housing PAC. Opposes local rent caps and a rent registry; prefers state AB 1482 plus subsidies. Supports ADU / manufactured-housing supply. Mixed-flow BRT, not dedicated lanes. Construction and development background.",
+      "needsPlatform": true
     },
     {
       "id": "waltman",
