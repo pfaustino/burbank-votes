@@ -318,34 +318,34 @@
     },
     "yoosefi": {
       "rentCap": {
-        "pos": "none",
-        "basis": "none",
-        "note": "Site does not take a rent-cap position."
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Reddit (YoosefiServes): yes, with discussion and partnership."
       },
       "dedicatedBrt": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No BRT quote found."
+        "pos": "no",
+        "basis": "statement",
+        "note": "Reddit: no dedicated BRT; mixed-flow is OK; prefers a different location than Olive."
       },
       "moreHousing": {
         "pos": "mixed",
         "basis": "statement",
-        "note": "“Preserve Burbank’s charm”; residents first, not outside developers. Also says grow smarter and follow state rules."
+        "note": "Reddit: yes to more housing, but not via SB 79 — develop under Burbank’s rules, not Sacramento. Site also says preserve charm."
       },
       "iceLimits": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No ICE quote found."
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "Reddit: not a fan of ICE; will direct police not to assist; will not spend tax dollars fighting the federal government."
       },
       "flockAlpr": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No Flock or ALPR quote found."
+        "pos": "no",
+        "basis": "statement",
+        "note": "Reddit: not a fan. Notes Flock is contracted through 2027 after the current council approved and paid for it."
       },
       "fullPolice": {
         "pos": "yes",
         "basis": "statement",
-        "note": "Vision 2030 lists public safety as a priority."
+        "note": "Reddit: yes. Site: Vision 2030 lists public safety as a priority."
       }
     },
     "donahue": {
