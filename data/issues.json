@@ -130,9 +130,9 @@
         "note": "Supported limits on city staff, facilities, and resources for federal immigration enforcement, plus a community assistance fund."
       },
       "flockAlpr": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No Flock or ALPR quote found."
+        "pos": "no",
+        "basis": "statement",
+        "note": "Aug 25, 2026 council meeting: proposed putting a Flock and ALPR ban on a future agenda. Next step is Sept 15."
       },
       "fullPolice": {
         "pos": "yes",
