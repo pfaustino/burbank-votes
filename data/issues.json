@@ -83,9 +83,9 @@
         "note": "Tenants-union founder; housing crisis and tenant power are core to the campaign."
       },
       "dedicatedBrt": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No dedicated-lane quote found."
+        "pos": "yes",
+        "basis": "statement",
+        "note": "Reddit: yes to a dedicated BRT lane. Says fewer cars will keep local traffic feeling about the same."
       },
       "moreHousing": {
         "pos": "yes",
@@ -98,14 +98,14 @@
         "note": "Campaign: stand up to ICE; describes himself as a principal anti-ICE organizer."
       },
       "flockAlpr": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No Flock or ALPR quote found."
+        "pos": "no",
+        "basis": "statement",
+        "note": "Reddit: tear the cameras down, break the contract, and close the funding loophole. Distrusts ALPRs; calls Flock the worst actor."
       },
       "fullPolice": {
-        "pos": "none",
-        "basis": "none",
-        "note": "No police-budget quote found."
+        "pos": "mixed",
+        "basis": "statement",
+        "note": "Reddit: public safety funding should prioritize unarmed specialists like the mental-health evaluation team over more surveillance or military surplus."
       }
     },
     "perez": {
